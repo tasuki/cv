@@ -6,7 +6,7 @@ categories:
         cell phone: +31 627 963 611
 
     Manifesto:
-        - I despise any form of code duplication, and will go great lengths to avoid it.
+        - I will go great lengths to avoid any form of code duplication.
         - I don't care much for tabs versus spaces, underscores versus camelCase, but consider it vitally important that a coding standard is in place and being followed.
         - (Relational) databases should be normalized, as far as performance concerns allow.
         - I don't particularly care for Windows; give me bash, screen, and vim, and I'll be happy.
@@ -16,13 +16,14 @@ categories:
         <a href="http://www.perfectworld.com/">Perfect World</a>:
             - 2010--now; PHP developer (Amsterdam, the Netherlands)
             - created an in-house i18n system with web-based translation interface to cater to specific needs of the company
-            - maintained perfectworld.eu sites (built upon an in-house framework) in cooperation with colleagues from the US and China, customized VBulletin and WordPress
+            - maintained perfectworld.eu sites (built upon an in-house framework) in cooperation with colleagues from the US and China
+            - customized VBulletin and WordPress
             - set up and helped maintain master-master MySQL replication
 
         <a href="http://www.awebsys.cz/">A-WebSys</a>:
             - 2007--2009; software developer (Brno, Czech Republic)
-            - developed and maintained a wide variety of sites, mostly using combination of PHP, MySQL, XHTML, CSS, and JavaScript
-            - worked with several in-house application frameworks, in later projects we mostly used the Zend framework
+            - developed and maintained a wide variety of projects, usually in small teams, mostly using combination of PHP, MySQL, XHTML, CSS, and JavaScript
+            - worked with several in-house application frameworks, in later projects we used the Zend Framework
             - communicated with the clients, wrote specifications, and estimated time necessary for implementation
             - designed database schemas consisting of several dozen tables using MySQL Workbench
 
@@ -56,4 +57,4 @@ categories:
         Go: <a href="http://www.europeangodatabase.eu/EGD/Player_Card.php?&key=12513842">4dan in the game of go</a>, have been playing seriously for many years, studied in South Korea for 3 months
         Photography: avid photographer, you can see <a href="http://gallery.tasuki.org/">my gallery</a> and my <a href="http://www.flickr.com/photos/tasuki/">best of gallery</a>
         Abstract board games: apart from Go I am <a href="http://www.littlegolem.net/jsp/info/player.jsp?plid=5460">interested in other abstract board games</a> such as TwixT, Hex, Amazons, Dots & Boxes and Gomoku
-        Sports: running, cycling, swimming, skiing (both downhill and cross-country), table tennis, walking (if it's not sport, it's at least my favorite means of transport right after a bike)
+        Sports: cycling, running, swimming, skiing (both downhill and cross-country), table tennis, walking (if it isn't sport, it's at least my favorite means of transport right after a bike)
