@@ -1,6 +1,30 @@
 <?php
-require_once('lib/spyc.php');
-$data = Spyc::YAMLLoad('cv.yaml');
+require_once('lib/common.php');
+
+function escape($string) {
+	return preg_replace(
+		array('/&/', '/--/'),
+		array('&amp;', '&ndash;'),
+		$string
+	);
+}
+
+function show_category($category) {
+	echo "<div class='right category'>"
+		. escape($category)
+		. "<div></div></div><br/>";
+}
+
+function show_item($item, $desc) {
+	echo "
+		<div>
+			<span class='left'>" . escape($item)
+			. "<span class='separator'>&rsaquo;</span></span>
+			<span class='right'>" . escape($desc) . "</span>
+			<div></div>
+		</div>";
+}
+
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
@@ -30,36 +54,7 @@ $data = Spyc::YAMLLoad('cv.yaml');
 <div id="wrap">
 <h1 class="right"><?php echo $data['name'] ?></h1>
 
-<?php
-
-function show_item($item, $description) {
-	echo "
-		<div>
-			<span class='left'>$item<span class='separator'>&raquo;</span></span>
-			<span class='right'>$description</span>
-			<div></div>
-		</div>";
-}
-
-foreach ($data['categories'] as $category => $items) {
-	echo "<div class='right category'>$category<div></div></div><br/>";
-
-	foreach ($items as $item => $desc) {
-		if (is_int($item)) {
-			$item = '';
-		}
-
-		if (is_array($desc)) {
-			show_item($item, array_shift($desc));
-			foreach ($desc as $part) {
-				show_item('', $part);
-			}
-		} else {
-			show_item($item, $desc);
-		}
-	}
-}
-?>
+<?php show_data($data); ?>
 
 </div>
 </body>
