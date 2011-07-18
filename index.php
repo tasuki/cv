@@ -1,6 +1,12 @@
 <?php
 require_once('lib/common.php');
 
+/**
+ * Escape for HTML output
+ *
+ * @param   string  to be escaped
+ * @return  string  escaped
+ */
 function escape($string) {
 	return preg_replace(
 		array('/&/', '/--/'),
@@ -9,12 +15,23 @@ function escape($string) {
 	);
 }
 
+/**
+ * Display category
+ *
+ * @param  string  category name
+ */
 function show_category($category) {
 	echo "<div class='right category'>"
 		. escape($category)
 		. "<div></div></div><br/>";
 }
 
+/**
+ * Display category item
+ *
+ * @param  string  left side
+ * @param  string  right side
+ */
 function show_item($item, $desc) {
 	echo "
 		<div>
