@@ -7,7 +7,7 @@ categories:
 
     Manifesto:
         - I will go great lengths to avoid any form of code duplication.
-        - I don't care much for tabs versus spaces, underscores versus camelCase, but consider it vitally important that a coding standard is in place and being followed.
+        - I don't care much for tabs versus spaces, underscores versus camelCase, &c. but consider it vitally important that a coding standard is in place and being followed.
         - (Relational) databases should be normalized, as far as performance concerns allow.
         - I don't particularly care for Windows; give me bash, screen, and vim, and I'll be happy.
         - I strive to write elegant code.
@@ -15,7 +15,7 @@ categories:
     Work experience:
         <a href="http://www.perfectworld.com/">Perfect World</a>:
             - 2010--now; PHP developer (Amsterdam, the Netherlands)
-            - created an in-house i18n system with web-based translation interface to cater to specific needs of the company
+            - created a Kohana-based in-house i18n system with web-based translation interface to cater to specific needs of the company
             - maintained perfectworld.eu sites (built upon an in-house framework) in cooperation with colleagues from the US and China
             - customized VBulletin and WordPress
             - set up and helped maintain master-master MySQL replication
@@ -57,4 +57,4 @@ categories:
         Go: <a href="http://www.europeangodatabase.eu/EGD/Player_Card.php?&key=12513842">4dan in the game of go</a>, have been playing seriously for many years, studied in South Korea for 3 months
         Photography: avid photographer, you can see <a href="http://gallery.tasuki.org/">my gallery</a> and my <a href="http://www.flickr.com/photos/tasuki/">best of gallery</a>
         Abstract board games: apart from Go I am <a href="http://www.littlegolem.net/jsp/info/player.jsp?plid=5460">interested in other abstract board games</a> such as TwixT, Hex, Amazons, Dots & Boxes and Gomoku
-        Sports: cycling, running, swimming, skiing (both downhill and cross-country), table tennis, walking (if it isn't sport, it's at least my favorite means of transport right after a bike)
+        Sports: cycling, running, swimming, downhill and cross-country skiing, table tennis, and walking
