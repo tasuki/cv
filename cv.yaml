@@ -1,6 +1,8 @@
 name: Vít Brunner
 
 categories:
+    - My CV is generated into both the [HTML version]() and the [PDF version](cv-vit-brunner.pdf) from a [YAML source](cv.yaml). I think that's pretty cool. If you also think that, I might like to work for you!
+
     Contact:
         e-mail & jabber: "[vit.brunner@gmail.com](mailto:vit.brunner@gmail.com)"
         cell phone: +31 627 963 611

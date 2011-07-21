@@ -78,8 +78,8 @@ function end_category() {
 	\vskip .1cm
 	\hbox to \hsize {
 		\vtop {
-			\it\hsize 4cm \hfill #1
-			\rm\hskip .1cm \guill ~
+			\hsize 4cm \hfill #1
+			\hskip .1cm \guill ~
 		}
 		\vtop { \hsize 10cm #2 }
 		\hfill
@@ -91,6 +91,7 @@ function end_category() {
 	\font\tenbf=pplb8z at 10pt
 	\font\tenit=pplri8z at 10pt
 	\font\title=pplr8z scaled \magstep 3
+	\font\link=pplr8z at 7pt
 	\def\guill{\char 159}
 	\def\leftcol{4.17cm}
 }
@@ -105,6 +106,8 @@ function end_category() {
 \palatino
 
 \title \hskip\leftcol V\kern-.05em\char 237\kern-.02em t B\kern-.03em runn\kern-0.02em e\kern-0.02em r
+\hskip.5em\href{\link http:\kern-.1em/\kern-.25em/\kern-.1em cv.tasuki.org}{http://cv.tasuki.org/}
+\vskip 10pt
 
 \tenrm
 
