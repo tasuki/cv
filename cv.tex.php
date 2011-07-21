@@ -2,16 +2,15 @@
 require_once('lib/common.php');
 
 /**
- * Escape for TeX output
+ * Convert from Markdown to TeX
  *
- * @param   string  to be escaped
- * @return  string  escaped
+ * @param   string  markdown
+ * @return  string  tex
  */
-function escape($string) {
-	$string = strip_tags($string);
+function format($string) {
 	return preg_replace(
-		array('/&/'),
-		array('\\&'),
+		array('/&/', '/\[(.*)\]\((.*)\)/U', '/(href{.*}){(?!(http|mailto))(.*)}/U'),
+		array('\\&', '\\href{\\1}{\\2}',    '\\1{http://cv.tasuki.org/\\3}'),
 		$string
 	);
 }
@@ -22,7 +21,7 @@ function escape($string) {
  * @param  string  category name
  */
 function show_category($category) {
-	echo "\n\category{" . escape($category) . "}";
+	echo "\n\category{" . format($category) . "}";
 }
 
 /**
@@ -32,7 +31,7 @@ function show_category($category) {
  * @param  string  right side
  */
 function show_item($item, $desc) {
-	echo "\n\item{" . escape($item) . "}{" . escape($desc) . "}";
+	echo "\n\item{" . format($item) . "}{" . format($desc) . "}";
 }
 
 /**
@@ -53,9 +52,21 @@ function end_category() {
 \parindent 0pt
 \nopagenumbers
 \frenchspacing
+\pdflinkmargin 0pt
 
 \pdfcatalog{
-/PdfStartView /FitW
+	/PdfStartView /FitW
+}
+
+\def\href#1#2{\leavevmode\pdfstartlink user{
+		/Subtype /Link
+		/C [ .9 .9 1]
+		/A <<
+			/Type /Action
+			/S /URI
+			/URI (#2)
+		>>
+	}\it#1\pdfendlink\rm
 }
 
 \def\category#1{

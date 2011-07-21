@@ -1,16 +1,19 @@
 <?php
 require_once('lib/common.php');
+require_once('lib/markdown.php');
 
 /**
- * Escape for HTML output
+ * Convert from Markdown to HTML
  *
- * @param   string  to be escaped
- * @return  string  escaped
+ * @param   string  markdown
+ * @return  string  html
  */
-function escape($string) {
+function format($string) {
+	$string = Markdown($string);
+
 	return preg_replace(
-		array('/&/', '/--/'),
-		array('&amp;', '&ndash;'),
+		array('/--/', '/<\/?p>/'),
+		array('&ndash;', ''),
 		$string
 	);
 }
@@ -22,7 +25,7 @@ function escape($string) {
  */
 function show_category($category) {
 	echo "<div class='right category'>"
-		. escape($category)
+		. format($category)
 		. "<div></div></div><br/>";
 }
 
@@ -35,9 +38,9 @@ function show_category($category) {
 function show_item($item, $desc) {
 	echo "
 		<div>
-			<span class='left'>" . escape($item)
+			<span class='left'>" . format($item)
 			. "<span class='separator'>&rsaquo;</span></span>
-			<span class='right'>" . escape($desc) . "</span>
+			<span class='right'>" . format($desc) . "</span>
 			<div></div>
 		</div>";
 }

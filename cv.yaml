@@ -2,7 +2,7 @@ name: Vít Brunner
 
 categories:
     Contact:
-        e-mail & jabber: <a href="mailto:vit.brunner@gmail.com">vit.brunner@gmail.com</a>
+        e-mail & jabber: "[vit.brunner@gmail.com](mailto:vit.brunner@gmail.com)"
         cell phone: +31 627 963 611
 
     Manifesto:
@@ -13,14 +13,14 @@ categories:
         - I strive to write elegant code.
 
     Work experience:
-        <a href="http://www.perfectworld.com/">Perfect World</a>:
+        "[Perfect World](http://www.perfectworld.com/)":
             - 2010--now; PHP developer (Amsterdam, the Netherlands)
             - created a Kohana-based in-house i18n system with web-based translation interface to cater to specific needs of the company
             - maintained perfectworld.eu sites (built upon an in-house framework) in cooperation with colleagues from the US and China
             - customized VBulletin and WordPress
             - set up and helped maintain master-master MySQL replication
 
-        <a href="http://www.awebsys.cz/">A-WebSys</a>:
+        "[A-WebSys](http://www.awebsys.cz/)":
             - 2007--2009; software developer (Brno, Czech Republic)
             - developed and maintained a wide variety of projects, usually in small teams, mostly using combination of PHP, MySQL, XHTML, CSS, and JavaScript
             - worked with several in-house application frameworks, in later projects we used the Zend Framework
@@ -38,23 +38,23 @@ categories:
         MySQL: upper intermediate (understand indexing, have written and optimized complex queries involving subqueries and self-joins, can set up master-master replication on a good day)
         XHTML/CSS: advanced, produce standards compliant code, aware of various css tricks
         JavaScript: upper intermediate, solid experience with JQuery, worked with several AJAX based applications, used Google Maps API
-        Others: Python (solved <a href="http://www.facebook.com/careers/puzzles.php?puzzle_id=19">dinosaur island</a> and <a href="http://projecteuler.net/profile/tasuki.png">a couple of Project Euler problems</a>), TeX (<a href="work/alice.tex">Alice in Wonderland</a> or <a href="http://tsumego.tasuki.org/">Tsumego Collections</a>), C, Perl (<a href="work/rotate.pl">sgf rotator</a>), Bash, POV-Ray (<a href="work/goban.png">picture</a> and <a href="work/goban.pov">source</a>), Scheme, PostScript (<a href="work/twixt.ps">TwixT board</a>), Haskell
+        Others: Python (solved [dinosaur island](http://www.facebook.com/careers/puzzles.php?puzzle_id=19) and [a couple of Project Euler problems](http://projecteuler.net/profile/tasuki.png)), TeX ([Alice in Wonderland](work/alice.tex) or [Tsumego Collections](http://tsumego.tasuki.org/)), C, Perl ([sgf rotator](work/rotate.pl)), Bash, POV-Ray ([picture](work/goban.png) and [source](work/goban.pov)), Scheme, PostScript ([TwixT board](work/twixt.ps)), Haskell
 
     Other computer skills:
-        Linux: experience with Linux as primary desktop operating system for over 7 years; managing a small home network; slight preference for Debian-based distros; I'm a <a href="http://github.com/tasuk/dotrc">dotrc junkie</a> (my <a href="http://github.com/tasuk/dotrc/blob/master/.bashrc">.bashrc</a> and <a href="http://github.com/tasuk/dotrc/blob/master/.vimrc">.vimrc</a> are almost unbeatable)
+        Linux: experience with Linux as primary desktop operating system for over 7 years; managing a small home network; slight preference for Debian-based distros; I'm a [dotrc junkie](http://github.com/tasuk/dotrc) (my [.bashrc](http://github.com/tasuk/dotrc/blob/master/.bashrc) and [.vimrc](http://github.com/tasuk/dotrc/blob/master/.vimrc) are almost unbeatable)
         Relational databases: can design sensible database schemas, have intuitive understanding of normalization and am aware of its performance implications
         Revision control: SVN at work (I believe I've encountered and resolved all types of tree conflicts), Git for personal use
-        Typography: know principles of both printed (<a href="work/alice.pdf">Alice in Wonderland</a>) and on-screen typography
+        Typography: know principles of both printed ([Alice in Wonderland](work/alice.pdf)) and on-screen typography
         SEO: aware of the basic search engine optimization techniques
-        Graphic design: have created the design of my <a href="http://blog.tasuki.org/">personal blog</a>, among other things
+        Graphic design: have created the design of my [personal blog](http://blog.tasuki.org/), among other things
 
     Other skills:
         Driving licence: category B (motor vehicles), active driver
-        Translating: translated <a href="http://www.gokgs.com/">gokgs.com</a> and its client software from English into Czech
+        Translating: translated [gokgs.com](http://www.gokgs.com/) and its client software from English into Czech
         Event organizing: was one of the two main organizers of Polish Summer Go Camp 2010 (around 90 participants throughout 2 weeks)
 
     Hobbies:
-        Go: <a href="http://www.europeangodatabase.eu/EGD/Player_Card.php?&key=12513842">4dan in the game of go</a>, have been playing seriously for many years, studied in South Korea for 3 months
-        Photography: avid photographer, you can see <a href="http://gallery.tasuki.org/">my gallery</a> and my <a href="http://www.flickr.com/photos/tasuki/">best of gallery</a>
-        Abstract board games: apart from Go I am <a href="http://www.littlegolem.net/jsp/info/player.jsp?plid=5460">interested in other abstract board games</a> such as TwixT, Hex, Amazons, Dots & Boxes and Gomoku
+        Go: I'm [4dan in the game of go](http://www.europeangodatabase.eu/EGD/Player_Card.php?&key=12513842), have been playing seriously for many years, studied in South Korea for 3 months
+        Photography: avid photographer, you can see [my gallery](http://gallery.tasuki.org/) and my [best of gallery](http://www.flickr.com/photos/tasuki/)
+        Abstract board games: apart from Go I am [interested in other abstract board games](http://www.littlegolem.net/jsp/info/player.jsp?plid=5460) such as TwixT, Hex, Amazons, Dots & Boxes and Gomoku
         Sports: cycling, running, swimming, downhill and cross-country skiing, table tennis, and walking

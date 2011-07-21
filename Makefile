@@ -5,4 +5,4 @@ cv.tex : cv.tex.php cv.yaml
 	php cv.tex.php > cv.tex
 
 clean :
-	rm -f cv.tex cv-vit-brunner*
+	rm -f cv.tex cv-vit-brunner* *.log
