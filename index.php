@@ -9,7 +9,7 @@ require_once('lib/markdown.php');
  * @return  string  html
  */
 function format($string) {
-	$string = Markdown($string);
+	$string = trim(Markdown($string));
 
 	return preg_replace(
 		array('/--/', '/<\/?p>/'),
@@ -50,9 +50,10 @@ function show_item($item, $desc) {
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-	<title><?php echo $data['name'] ?></title>
+	<title><?php echo format($data['title']); ?></title>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta name="description" content="CV of Vit Brunner" />
+	<meta name="description" content="<?php echo format($data['description']); ?>" />
+	<meta name="keywords" content="<?php echo format($data['keywords']); ?>" />
 	<style type="text/css">
 		* { margin: 0px; padding: 0px; }
 		body { background-color: #FFF; color: #000; font-family: Candara, Verdana, sans-serif; font-size: 14px; }
@@ -72,7 +73,7 @@ function show_item($item, $desc) {
 <body>
 
 <div id="wrap">
-<h1 class="right"><?php echo $data['name'] ?></h1>
+<h1 class="right"><?php echo format($data['author']); ?></h1>
 
 <?php show_data($data); ?>
 

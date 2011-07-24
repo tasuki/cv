@@ -1,4 +1,6 @@
 <?php
+setlocale(LC_ALL, "en_US.utf8");
+
 require_once('spyc.php');
 $data = Spyc::YAMLLoad('cv.yaml');
 

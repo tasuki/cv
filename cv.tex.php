@@ -5,9 +5,14 @@ require_once('lib/common.php');
  * Convert from Markdown to TeX
  *
  * @param   string  markdown
+ * @param   bool    escape for pdf info
  * @return  string  tex
  */
-function format($string) {
+function format($string, $pdf_info = false) {
+	if ($pdf_info === true) {
+		$string = iconv('UTF-8', 'ASCII//TRANSLIT', $string);
+	}
+
 	return preg_replace(
 		array('/&/', '/\[(.*)\]\((.*)\)/U', '/(href{.*}){(?!(http|mailto))(.*)}/U'),
 		array('\\&', '\\href{\\1}{\\2}',    '\\1{http://cv.tasuki.org/\\3}'),
@@ -54,6 +59,12 @@ function end_category() {
 \frenchspacing
 \pdflinkmargin 0pt
 
+\pdfinfo{
+	/Title (<?php echo format($data['title'], true); ?>)
+	/Author (<?php echo format($data['author'], true); ?>)
+	/Subject (<?php echo format($data['description'], true); ?>)
+	/Keywords (<?php echo format($data['keywords'], true); ?>)
+}
 \pdfcatalog{
 	/PdfStartView /FitW
 }
