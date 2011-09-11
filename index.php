@@ -65,9 +65,8 @@ function show_item($item, $desc) {
 		h1 { letter-spacing: 1px; font-size: 25px; font-weight: normal; }
 		p { clear: both; padding: 5px 0px; }
 		.category { font-weight: bold; margin-top: 30px; padding: 0px; }
-		a:link { color: #000; }
-		a:visited { color: #000; }
-		a:hover { color: #69A; text-decoration: none; }
+		a:link, a:visited { color: #000; }
+		a:hover { text-decoration: none; }
 	</style>
 </head>
 <body>
