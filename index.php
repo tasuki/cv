@@ -56,7 +56,7 @@ function show_item($item, $desc) {
 	<meta name="keywords" content="<?php echo format($data['keywords']); ?>" />
 	<style type="text/css">
 		* { margin: 0px; padding: 0px; }
-		body { background-color: #FFF; color: #000; font-family: Candara, Verdana, sans-serif; font-size: 14px; }
+		body { background-color: #F2E9C6; color: #242526; font-family: Candara, Verdana, sans-serif; font-size: 14px; }
 		div { clear: both; }
 		#wrap { width: 700px; padding: 20px; margin-left: 10px; }
 		.right { float: right; width: 500px; text-align: left; padding-top: 5px; }
@@ -65,7 +65,7 @@ function show_item($item, $desc) {
 		h1 { letter-spacing: 1px; font-size: 25px; font-weight: normal; }
 		p { clear: both; padding: 5px 0px; }
 		.category { font-weight: bold; margin-top: 30px; padding: 0px; }
-		a:link, a:visited { color: #000; }
+		a:link, a:visited { color: #B32C05; }
 		a:hover { text-decoration: none; }
 	</style>
 </head>
