@@ -38,13 +38,15 @@ function show_data(array $data) {
 		if (function_exists('start_category'))
 			start_category();
 
-		if (is_int($category))
+		if (is_int($category)) {
+			// category is empty, start with content
 			show_row('', $items);
-		else
+		} else {
+			// show category and its items
 			show_category($category);
-
-		foreach ($items as $item => $desc)
-			show_row($item, $desc);
+			foreach ($items as $item => $desc)
+				show_row($item, $desc);
+		}
 
 		if (function_exists('end_category'))
 			end_category();
