@@ -45,6 +45,8 @@ function show_item($item, $desc) {
 		</div>";
 }
 
+$font = 'Marvel';
+
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
@@ -54,15 +56,16 @@ function show_item($item, $desc) {
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="description" content="<?php echo format($data['description']); ?>" />
 	<meta name="keywords" content="<?php echo format($data['keywords']); ?>" />
+	<link href="http://fonts.googleapis.com/css?family=<?php echo $font; ?>" rel="stylesheet" type="text/css">
 	<style type="text/css">
 		* { margin: 0px; padding: 0px; }
-		body { background-color: #F2E9C6; color: #242526; font-family: Candara, Verdana, sans-serif; font-size: 14px; }
+		body { background-color: #F2E9C6; color: #242526; font-family: "<?php echo $font; ?>", sans-serif; font-size: 18px; }
 		div { clear: both; }
 		#wrap { width: 700px; padding: 20px; margin-left: 10px; }
 		.right { float: right; width: 500px; text-align: left; padding-top: 5px; }
 		.left { float: left; width: 200px; text-align: right; padding-top: 5px; }
 		.separator { padding: 0px 8px; }
-		h1 { letter-spacing: 1px; font-size: 25px; font-weight: normal; }
+		h1 { letter-spacing: 1px; font-size: 29px; font-weight: normal; }
 		p { clear: both; padding: 5px 0px; }
 		.category { font-weight: bold; margin-top: 30px; padding: 0px; }
 		a:link, a:visited { color: #B32C05; }
