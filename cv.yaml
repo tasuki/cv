@@ -16,7 +16,7 @@ categories:
         - Go great lengths to avoid any form of code duplication.
         - Don't care for tabs versus spaces, underscores versus camelCase, etc. but have a coding standard in place and follow it.
         - Normalize relational databases as far as performance concerns allow.
-        - Microsoft sucks, use \*nix, shell, vim.
+        - Microsoft sucks, use *nix, shell, vim.
 
     Work experience:
         "[Perfect World](http://www.perfectworld.com/)":
