@@ -59,7 +59,7 @@ $font = 'Marvel';
 	<link href="http://fonts.googleapis.com/css?family=<?php echo $font; ?>" rel="stylesheet" type="text/css">
 	<style type="text/css">
 		* { margin: 0px; padding: 0px; }
-		body { background-color: #F2E9C6; color: #242526; font-family: "<?php echo $font; ?>", sans-serif; font-size: 18px; }
+		body { background-color: #F2E9C6; color: #242526; font-family: "<?php echo $font; ?>", sans-serif; font-size: 18px; line-height: 1.1; }
 		div { clear: both; }
 		#wrap { width: 700px; padding: 20px; margin-left: 10px; }
 		.right { float: right; width: 500px; text-align: left; padding-top: 5px; }
