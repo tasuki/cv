@@ -56,7 +56,7 @@ $font = 'Marvel';
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="description" content="<?php echo format($data['description']); ?>" />
 	<meta name="keywords" content="<?php echo format($data['keywords']); ?>" />
-	<link href="http://fonts.googleapis.com/css?family=<?php echo $font; ?>" rel="stylesheet" type="text/css">
+	<link href="http://fonts.googleapis.com/css?family=<?php echo $font; ?>" rel="stylesheet" type="text/css" />
 	<style type="text/css">
 		* { margin: 0px; padding: 0px; }
 		body { background-color: #F2E9C6; color: #242526; font-family: "<?php echo $font; ?>", sans-serif; font-size: 18px; line-height: 1.1; }
