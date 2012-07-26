@@ -22,9 +22,11 @@ categories:
         "[Perfect World](http://www.perfectworld.com/)":
             - 2010--2012; PHP developer (Amsterdam, the Netherlands)
             - created an in-house i18n system (utilizing Kohana framework) to cater to the specific needs of the company
+            - created internal reporting tools for marketing and finance departments
             - maintained perfectworld.eu sites (built upon an in-house framework) in cooperation with colleagues from the US and China
             - customized VBulletin and WordPress
             - set up and helped maintain master-master MySQL replication
+            - prepared and conducted technical interviews of developer candidates
 
         "[A-WebSys](http://www.awebsys.cz/)":
             - 2007--2009; software developer (Brno, Czech Republic)
