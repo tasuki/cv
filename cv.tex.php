@@ -92,7 +92,7 @@ function end_category() {
 			\hsize 4cm \hfill #1
 			\hskip .1cm \guill ~
 		}
-		\vtop { \hsize 10cm #2 }
+		\vtop { \hsize 11cm #2 }
 		\hfill
 	}
 }
