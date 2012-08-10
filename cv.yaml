@@ -4,7 +4,7 @@ description: Vít is a web-oriented software developer.
 keywords: php, kohana, zend, mysql, javascript, jquery, html, css
 
 categories:
-    - My CV is generated into both the [HTML version]() and the [PDF version](cv-vit-brunner.pdf) from a [YAML source](cv.yaml) (you can [see the code on github](http://github.com/tasuk/cv)). I think that's pretty cool. If you think so too, I would like to work with you!
+    - My CV is generated into both the [HTML version]() and the [PDF version](cv-vit-brunner.pdf) from a [YAML source](cv.yaml). I think that's pretty cool. If you think so too, I would like to work with you!
 
     Contact:
         e-mail & jabber: "[vit.brunner@gmail.com](mailto:vit.brunner@gmail.com)"
