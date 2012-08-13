@@ -45,7 +45,7 @@ categories:
         PHP: advanced, have used several MVC based frameworks, such as Zend and Kohana, have brief experience with WordPress, VBulletin, Joomla, and MediaWiki; see [Simple Gallery](http://github.com/tasuk/gallery)
         MySQL: upper intermediate (understand indexing, have written and optimized complex queries involving subqueries and self-joins, can set up master-master replication on a good day)
         HTML/CSS: advanced, produce standards compliant code, aware of various css tricks
-        JavaScript: upper intermediate, solid experience with JQuery, worked with several AJAX-based applications; see [Masonry Ordered](http://github.com/tasuk/masonry-ordered)
+        JavaScript: advanced, solid experience with JQuery, worked with AJAX-based applications, created jQuery plugins; see [Masonry Ordered](http://masonry-ordered.tasuki.org/)
         Others: Python (solved [dinosaur island](http://www.facebook.com/note.php?note_id=113126229414) and [some of Project Euler problems](http://projecteuler.net/profile/tasuki.png)), TeX ([Alice in Wonderland](work/alice.tex) or [Tsumego Collections](http://tsumego.tasuki.org/)), bits of C, Perl, Bash, POV-Ray ([goban picture](work/goban.png)), Scheme, PostScript, Haskell
 
     Other computer skills:
