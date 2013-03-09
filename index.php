@@ -71,6 +71,7 @@ $font = 'Marvel';
 		a:link, a:visited { color: #B32C05; }
 		a:hover { text-decoration: none; }
 	</style>
+	<?php include 'lib/analyticstracking.php'; ?>
 </head>
 <body>
 
