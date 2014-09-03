@@ -45,7 +45,7 @@ function show_item($item, $desc) {
 		</div>";
 }
 
-$font = 'Exo';
+$font = 'Alegreya';
 
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
@@ -56,18 +56,18 @@ $font = 'Exo';
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="description" content="<?php echo format($data['description']); ?>" />
 	<meta name="keywords" content="<?php echo format($data['keywords']); ?>" />
-	<link href="http://fonts.googleapis.com/css?family=<?php echo $font; ?>:300,600" rel="stylesheet" type="text/css" />
+	<link href="http://fonts.googleapis.com/css?family=<?php echo str_replace(' ', '+', $font); ?>:400,700" rel="stylesheet" type="text/css" />
 	<style type="text/css">
 		* { margin: 0px; padding: 0px; }
-		body { background-color: #F2E9C6; color: #242526; font-family: "<?php echo $font; ?>", sans-serif; font-size: 16px; font-weight: 300; line-height: 20px; }
+		body { background-color: #F2E9C6; color: #242526; font-family: "<?php echo $font; ?>", sans-serif; font-size: 18px; font-weight: 400; line-height: 22px; text-rendering: optimizeLegibility; }
 		div { clear: both; }
-		#wrap { width: 700px; padding: 20px; margin-left: 10px; }
-		.right { float: right; text-align: left; width: 500px; padding-top: 7px; }
-		.left  { float: left; text-align: right; width: 200px; padding-top: 7px; }
+		#wrap { width: 900px; padding: 20px; margin-left: 10px; }
+		.right { float: right; text-align: left; width: 650px; padding-top: 7px; }
+		.left  { float: left; text-align: right; width: 250px; padding-top: 7px; }
 		.separator { padding: 0px 8px; }
-		h1 { letter-spacing: 1px; font-size: 30px; font-weight: 300; }
+		h1 { font-size: 30px; font-weight: 700; }
 		p { clear: both; padding: 5px 0px; }
-		.category { font-weight: 600; margin-top: 20px; padding: 0px; }
+		.category { font-weight: 700; margin-top: 20px; padding: 0px; }
 		a:link, a:visited { color: #B32C05; }
 		a:hover { text-decoration: none; }
 	</style>
