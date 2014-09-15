@@ -14,8 +14,8 @@ function format($string, $pdf_info = false) {
 	}
 
 	return preg_replace(
-		array('/&/', '/\[(.*)\]\((.*)\)/U', '/(href{.*}){(?!([[:alpha:]]*:))(.*)}/U'),
-		array('\\&', '\\href{\\1}{\\2}',    '\\1{http://cv.tasuki.org/\\3}'),
+		array('/&/', '/_/', '/\[(.*)\]\((.*)\)/U', '/(href{.*}){(?!([[:alpha:]]*:))(.*)}/U'),
+		array('\\&', '\\_', '\\href{\\1}{\\2}',    '\\1{http://cv.tasuki.org/\\3}'),
 		$string
 	);
 }

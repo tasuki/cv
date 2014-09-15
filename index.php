@@ -12,8 +12,8 @@ function format($string) {
 	$string = trim(Markdown($string));
 
 	return preg_replace(
-		array('/--/', '/<\/?p>/'),
-		array('&ndash;', ''),
+		array('/--/', '/<\/?p>/', "/'/"),
+		array('&ndash;', '', '&rsquo;'),
 		$string
 	);
 }
