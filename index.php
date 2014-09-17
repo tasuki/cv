@@ -11,11 +11,13 @@ require_once('lib/markdown.php');
 function format($string) {
 	$string = trim(Markdown($string));
 
-	return preg_replace(
-		array('/--/', '/<\/?p>/', "/'/"),
-		array('&ndash;', '', '&rsquo;'),
-		$string
+	$replace = array(
+		'/--/' => '&ndash;', // fix ndash
+		"/'/" => '&rsquo;', // fix apostrophe
+		'/<\/?p>/' => '', // no paragraphs
 	);
+
+	return preg_replace(array_keys($replace), array_values($replace), $string);
 }
 
 /**

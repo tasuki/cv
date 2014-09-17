@@ -13,11 +13,15 @@ function format($string, $pdf_info = false) {
 		$string = iconv('UTF-8', 'ASCII//TRANSLIT', $string);
 	}
 
-	return preg_replace(
-		array('/&/', '/_/', '/\[(.*)\]\((.*)\)/U', '/(href{.*}){(?!([[:alpha:]]*:))(.*)}/U'),
-		array('\\&', '\\_', '\\href{\\1}{\\2}',    '\\1{http://cv.tasuki.org/\\3}'),
-		$string
+	$replace = array(
+		'/&/' => '\\&', // escape ampersand
+		'/_/' => '\\_', // escape underscore
+		'/\[(.*)\]\((.*)\)/U' => '\\href{\\1}{\\2}', // link links
+		'/(href{.*}){(?!([[:alpha:]]*:))(.*)}/U' => '\\1{http://cv.tasuki.org/\\3}',
+		'/\\*(.*)\\*/' => '\\1', // remove italics as we use that for links
 	);
+
+	return preg_replace(array_keys($replace), array_values($replace), $string);
 }
 
 /**
