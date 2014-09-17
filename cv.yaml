@@ -20,19 +20,19 @@ categories:
 
     Work experience:
         "[Inviqa](http://www.inviqa.com/)":
-            - 2012--now; software engineer (Sheffield, United Kingdom)
+            - 2012--now; *software engineer (Sheffield, United Kingdom)*
             - co-implemented a REST API to facilitate and process donations for a large non-profit organization, created an extensive integration test suite using Behat, set up AWS autoscaling, Varnish cache, performed load testing with Gatling2
             - prototyped an ElasticSearch-based hyperlocal news application with an AngularJS frontend
             - used Vagrant with Chef to maintain virtual environments, Capistrano for deployment, Jenkins for CI
 
         "[Perfect World](http://www.perfectworld.com/)":
-            - 2010--2012; PHP developer (Amsterdam, the Netherlands)
+            - 2010--2012; *PHP developer (Amsterdam, the Netherlands)*
             - designed and created an in-house i18n system (utilizing the Kohana framework) to cater to the specific needs of the company
             - created several internal reporting tools for marketing and finance departments; maintained perfectworld.eu sites built upon an in-house framework, in cooperation with colleagues from the US and China
             - prepared and conducted technical interviews of developer candidates
 
         "[A-WebSys](http://www.awebsys.cz/)":
-            - 2007--2009; software developer (Brno, Czech Republic)
+            - 2007--2009; *software developer (Brno, Czech Republic)*
             - developed and maintained a wide variety of small to medium sized web applications in small teams, mostly using some combination of the Zend Framework, PHP, MySQL, MySQL Workbench, XHTML, CSS, and JavaScript
 
     Programming languages:
