@@ -12,10 +12,9 @@ categories:
         phone: +48 570 075 993
 
     Personal philosophy:
-        - Strive to write elegant code.
-        - Go great lengths to avoid any form of code duplication.
-        - Enforce a coding standard. Don't care for tabs vs. spaces, under_scores vs. camelCase etc.
-        - Continuous integration is a necessity. Integration tests are more useful than unit tests.
+        - Communication is the key.
+        - Strive to write elegant code. Avoid any form of code duplication.
+        - Continuous integration is a necessity. Integration tests are more useful than unit tests. Don't care for tabs vs. spaces, under_scores vs. camelCase etc, but enforce a coding standard.
         - Normalize relational databases as far as performance concerns allow.
         - Prefer simple tools. Use *nix, shell, vim.
 
