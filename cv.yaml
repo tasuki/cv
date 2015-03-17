@@ -37,7 +37,7 @@ categories:
             - 2013; *Python*
             - A semi-intelligent AI solver for [RoboZZle](http://www.robozzle.com). Solved 2,000+ puzzles. Currently in top 50 of the 10,000+ players. This was lots of fun.
         "[Masonry Ordered](http://masonry-ordered.tasuki.org/)":
-            - 2012; *Javascript, jQuery*
+            - 2012; *JavaScript, jQuery*
             - A jQuery plugin to keep elements in jQuery Masonry ordered. This solved a problem I turned out not to have, but some people still use it.
         "[LittleGolem ratings](http://golem.tasuki.org/)":
             - 2008; *an awful MySQL database hiding behind one large PHP file*
