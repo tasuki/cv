@@ -15,7 +15,9 @@ categories:
             - 2012--now; *software engineer (Sheffield, United Kingdom)*
             - co-implemented a REST API to facilitate and process donations for a large non-profit organization, created an extensive integration test suite using Behat, set up AWS autoscaling, Varnish cache, performed load testing with Gatling2
             - prototyped an ElasticSearch-based hyperlocal news application with an AngularJS frontend
-            - used Vagrant with Chef to maintain virtual environments, Capistrano for deployment, Jenkins for CI
+            - used Vagrant with Chef to maintain virtual environments, Capistrano for deployment, Jenkins and Scrutinizer for CI
+            - moved a large MySQL database to a different data center with zero downtime
+            - helped develop a continuous delivery pipeline using Docker
 
         "[Perfect World](http://www.perfectworld.com/)":
             - 2010--2012; *PHP developer (Amsterdam, the Netherlands)*
