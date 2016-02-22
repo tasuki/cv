@@ -56,7 +56,7 @@ function show_item($item, $desc) {
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="description" content="<?php echo format($data['description']); ?>" />
 	<meta name="keywords" content="<?php echo format($data['keywords']); ?>" />
-	<link href='http://fonts.googleapis.com/css?family=Alegreya+SC:700|Alegreya:400,400i,700' rel='stylesheet' type='text/css'>
+	<link href="//fonts.googleapis.com/css?family=Alegreya+SC:700|Alegreya:400,400i,700" rel="stylesheet" type="text/css">
 	<style type="text/css">
 		* { margin: 0px; padding: 0px; }
 		body { background-color: #F2E9C6; color: #242526; font-family: "Alegreya", serif; font-size: 18px; font-weight: 400; line-height: 22px; text-rendering: optimizeLegibility; }
