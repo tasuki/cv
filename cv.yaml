@@ -16,12 +16,12 @@ categories:
             - Co-implemented a REST API to facilitate and process donations for a large non-profit organization, created an extensive integration test suite using Behat, set up AWS autoscaling, Varnish cache, performed load testing with Gatling2.
             - Prototyped an ElasticSearch-based hyperlocal news application with an AngularJS frontend.
             - Used Vagrant with Chef to maintain virtual environments, Capistrano for deployment, Jenkins and Scrutinizer for CI.
-            - Moved a large MySQL database to a different data center with zero downtime.
+            - Moved a large MySQL database to a different data centre with zero downtime.
 
         "[Perfect World](http://www.perfectworld.com/)":
             - 2010--2012; *PHP developer (Amsterdam, the Netherlands)*
-            - Designed and created an in-house i18n system (utilizing the Kohana framework) to cater to the specific needs of the company.
-            - Created reporting tools for the marketing and finance departments to make effective business decisions.
+            - Designed and created an in-house i18n system (utilising the Kohana framework) to cater to the specific needs of the company.
+            - Created reporting tools for the marketing and finance departments to make efficient business decisions.
             - Prepared and conducted technical interviews of developer candidates.
 
         "[A-WebSys](http://www.awebsys.cz/)":
@@ -42,7 +42,7 @@ categories:
             - A jQuery plugin to keep elements in jQuery Masonry ordered. This solved a problem I turned out not to have, but some people still use it.
         "[LittleGolem ratings](https://golem.tasuki.org/)":
             - 2008; *an awful MySQL database hiding behind one large PHP file*
-            - Summary ratings for LittleGolem game server. Features automatic updates powered by googlebot. Will not show the code.
+            - Summary ratings for LittleGolem game server. Features automatic updates powered by the Googlebot. Will not show the code.
         "[Simple Gallery](http://github.com/tasuk/gallery)":
             - 2007; *PHP, Kohana framework*
             - Filesystem based gallery to [show off my photos](https://gallery.tasuki.org/). Pretty simple, really.
@@ -54,5 +54,5 @@ categories:
         - Translated [KGS](http://www.gokgs.com/) and its client software from English into Czech.
         - Achieved [4 dan in the game of go](http://www.europeangodatabase.eu/EGD/Player_Card.php?&key=12513842), studied in South Korea for three months.
         - Initiated and co-organized Polish Summer Go Camp 2010 (around 90 participants throughout two weeks).
-        - Achieved proficiency in certain [abstract board games](http://www.littlegolem.net/jsp/info/player.jsp?plid=5460), particularly TwixT, Hex, and Amazons.
+        - Achieved advanced proficiency in certain [abstract board games](http://www.littlegolem.net/jsp/info/player.jsp?plid=5460), particularly TwixT, Hex, and Amazons.
         - Cycled accross Europe, following the [Eurovelo 6](http://www.eurovelo6.org/) for two months from the Atlantic to the Black Sea.
