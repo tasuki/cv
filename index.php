@@ -26,9 +26,11 @@ function format($string) {
  * @param  string  category name
  */
 function show_category($category) {
-	echo "<div class='right category'>"
-		. format($category)
-		. "<div></div></div><br/>";
+	echo "
+		<div class='pure-g'>
+			<div class='left pure-u-md-1-4'></div>
+			<div class='right pure-u-md-3-4 category'>" . format($category) . "</div>
+		</div>";
 }
 
 /**
@@ -39,11 +41,10 @@ function show_category($category) {
  */
 function show_item($item, $desc) {
 	echo "
-		<div>
-			<span class='left'>" . format($item)
-			. "<span class='separator'>&rsaquo;</span></span>
-			<span class='right'>" . format($desc) . "</span>
-			<div></div>
+		<div class='pure-g'>
+			<div class='left pure-u-md-1-4'>" . format($item)
+			. "<span class='separator'>&rsaquo;</span></div>
+			<div class='right pure-u-md-3-4'>" . format($desc) . "</div>
 		</div>";
 }
 
@@ -57,17 +58,28 @@ function show_item($item, $desc) {
 	<meta name="description" content="<?php echo format($data['description']); ?>" />
 	<meta name="keywords" content="<?php echo format($data['keywords']); ?>" />
 	<link href="//fonts.googleapis.com/css?family=Alegreya+SC:700|Alegreya:400,400i,700" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/pure-min.css">
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/grids-responsive-min.css">
 	<style type="text/css">
-		* { margin: 0px; padding: 0px; }
-		body { background-color: #F2E9C6; color: #242526; font-family: "Alegreya", serif; font-size: 18px; font-weight: 400; line-height: 22px; text-rendering: optimizeLegibility; }
+		html, body, button, input, select, textarea, .pure-g [class *= "pure-u"] { font-family: "Alegreya", serif; letter-spacing: 0px; }
+		body { background-color: #F2E9C6; color: #242526; font-size: 18px; font-weight: 400; line-height: 22px; text-rendering: optimizeLegibility; }
 		div { clear: both; }
-		#wrap { width: 900px; padding: 20px; margin-left: 10px; }
-		.right { float: right; text-align: left; width: 650px; padding-top: 7px; }
-		.left  { float: left; text-align: right; width: 250px; padding-top: 7px; }
+		#wrap { padding: 10px; }
+
+		.pure-g { max-width: 880px; margin: auto; padding-top: 7px; }
+		.right { text-align: left; }
+		.left  { text-align: right; }
+		@media screen and (max-width: 48em) {
+			.pure-g { display: block; }
+			.left { text-align: left; }
+			.pure-g div { display: inline; }
+		}
+
 		.separator { padding: 0px 8px; }
+
 		h1 { font-size: 30px; font-weight: 700; font-family: "Alegreya SC"; }
-		p { clear: both; padding: 5px 0px; }
 		.category { font-weight: 700; font-family: "Alegreya SC"; margin-top: 22px; padding: 0px; text-transform: capitalize; }
+
 		a:link, a:visited { color: #B32C05; }
 		a:hover { text-decoration: none; }
 	</style>
@@ -76,10 +88,12 @@ function show_item($item, $desc) {
 <body>
 
 <div id="wrap">
-<h1 class="right"><?php echo format($data['author']); ?></h1>
+	<div class='pure-g '>
+		<div class='left pure-u-md-1-4'></div>
+		<div class='right pure-u-md-3-4'><h1><?php echo format($data['author']); ?></h1></div>
+	</div>
 
-<?php show_data($data); ?>
-
+	<?php show_data($data); ?>
 </div>
 </body>
 </html>
