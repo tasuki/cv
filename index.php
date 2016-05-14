@@ -27,9 +27,9 @@ function format($string) {
  */
 function show_category($category) {
 	echo "
-		<div class='pure-g'>
+		<div class='pure-g category'>
 			<div class='left pure-u-md-1-4'></div>
-			<div class='right pure-u-md-3-4 category'>" . format($category) . "</div>
+			<div class='right pure-u-md-3-4'>" . format($category) . "</div>
 		</div>";
 }
 
@@ -41,7 +41,7 @@ function show_category($category) {
  */
 function show_item($item, $desc) {
 	echo "
-		<div class='pure-g'>
+		<div class='pure-g " . ($item ? "item" : "noitem") . "'>
 			<div class='left pure-u-md-1-4'>" . format($item)
 			. "<span class='separator'>&rsaquo;</span></div>
 			<div class='right pure-u-md-3-4'>" . format($desc) . "</div>
@@ -61,24 +61,27 @@ function show_item($item, $desc) {
 	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/pure-min.css">
 	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/grids-responsive-min.css">
 	<style type="text/css">
-		html, body, button, input, select, textarea, .pure-g [class *= "pure-u"] { font-family: "Alegreya", serif; letter-spacing: 0px; }
+		html, button, input, select, textarea, .pure-g [class *= "pure-u"] { font-family: "Alegreya", serif; letter-spacing: 0px; }
 		body { background-color: #F2E9C6; color: #242526; font-size: 18px; font-weight: 400; line-height: 22px; text-rendering: optimizeLegibility; }
 		div { clear: both; }
 		#wrap { padding: 10px; }
 
-		.pure-g { max-width: 880px; margin: auto; padding-top: 7px; }
+		.pure-g { max-width: 880px; padding-top: 7px; }
 		.right { text-align: left; }
 		.left  { text-align: right; }
 		@media screen and (max-width: 48em) {
+			#wrap { padding-top: 0px; }
 			.pure-g { display: block; }
 			.left { text-align: left; }
 			.pure-g div { display: inline; }
+			.item .left a { font-weight: 700; }
+			.noitem .separator { display: none; }
 		}
 
 		.separator { padding: 0px 8px; }
 
-		h1 { font-size: 30px; font-weight: 700; font-family: "Alegreya SC"; }
-		.category { font-weight: 700; font-family: "Alegreya SC"; margin-top: 22px; padding: 0px; text-transform: capitalize; }
+		h1 { font-size: 30px; font-weight: 700; font-family: "Alegreya SC"; padding-top: 7px; margin: 0px; }
+		.category { font-weight: 700; font-family: "Alegreya SC" !important; padding-top: 22px; text-transform: capitalize; }
 
 		a:link, a:visited { color: #B32C05; }
 		a:hover { text-decoration: none; }
