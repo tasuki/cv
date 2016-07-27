@@ -30,6 +30,9 @@ categories:
             - Developed and maintained a wide variety of small to medium sized web applications in small teams, mostly using some combination of the Zend Framework, PHP, MySQL, MySQL Workbench, XHTML, CSS, and JavaScript. Built a simple points-based eshop in an afternoon.
 
     Personal projects:
+        "[Minotaur](https://github.com/tasuk/minotaur)":
+            - 2016; *Scala*
+            - An [MCTS](https://en.wikipedia.org/wiki/Monte_Carlo_tree_search)-based AI to play [Quoridor](https://en.wikipedia.org/wiki/Quoridor).
         "[Side By Side](https://github.com/tasuk/side-by-side)":
             - 2014; *AngularJS, CoffeeScript*
             - Easy visual comparison tool for different translations or versions of itemized texts; e.g. poems, bibles, etc. See it in action for [Enchiridion](https://enchiridion.tasuki.org/) and [Tao Te Ching](https://ttc.tasuki.org/).
