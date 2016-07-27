@@ -1,7 +1,7 @@
 title: Vít Brunner -- curriculum vitae
 author: Vít Brunner
 description: Vít is a web-oriented software developer.
-keywords: python, php, symfony, zend, mysql, javascript, angularjs, html, css
+keywords: python, php, symfony, mysql, javascript, angularjs, git, linux, bash, vim
 
 categories:
     - Both the [HTML version]() and the [PDF version](cv-vit-brunner.pdf) of my CV are generated from a [YAML source](cv.yaml). I think that's cool. If you think so too, I would like to work with you!
