@@ -4,6 +4,7 @@ description: Vít is a web-oriented software developer.
 keywords: python, php, symfony, mysql, javascript, angularjs, git, linux, bash, vim
 
 categories:
+    - Communication is the key. I highly value consistency and both conceptual and visual simplicity. My tools of choice are Linux, Bash, and Vim. I like normalised databases and plenty of integration tests. Slightly obsessed about Git branching and commit messages.
     - Both the [HTML version]() and the [PDF version](cv-vit-brunner.pdf) of my CV are generated from a [YAML source](cv.yaml). I think that's cool. If you think so too, I would like to work with you!
 
     Contact:
