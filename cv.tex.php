@@ -18,6 +18,7 @@ function format($string, $pdf_info = false) {
 		'/_/' => '\\_', // escape underscore
 		'/\[(.*)\]\((.*)\)/U' => '\\href{\\2}{\\1}', // link links
 		'/\\*(.*)\\*/' => '\textit{\\1}', // transform italics
+		'/Ví/' => 'V\kern-.06emí', // manually fix kerning == ugly!
 	);
 
 	return preg_replace(array_keys($replace), array_values($replace), $string);
@@ -51,22 +52,11 @@ function start_category() {
 function end_category() {
 	echo "\n\\end{samepage}";
 }
-
 ?>
 
 \documentclass[11pt,a4paper,serif]{moderncv}
 \usepackage{mathpazo}
 \renewcommand{\sfdefault}{\rmdefault}
-
-\pdfinfo{
-	/Title (<?php echo format($data['title'], true); ?>)
-	/Author (<?php echo format($data['author'], true); ?>)
-	/Subject (<?php echo format($data['description'], true); ?>)
-	/Keywords (<?php echo format($data['keywords'], true); ?>)
-}
-\pdfcatalog{
-	/PdfStartView /FitW
-}
 
 % moderncv themes
 \moderncvstyle{casual}
@@ -81,8 +71,8 @@ function end_category() {
 \setlength{\hintscolumnwidth}{3.5cm}
 
 % personal data
-\name{}{V\kern-.06emít Brunner}
-\title{\textit{\href{https://cv.tasuki.org}{https://cv.tasuki.org}}}
+\name{}{<?php echo format($data['author']) ?>}
+\title{\textit{\href{<?php echo $data['url'] ?>}{<?php echo format($data['url']) ?>}}}
 
 \begin{document}
 \makecvtitle
