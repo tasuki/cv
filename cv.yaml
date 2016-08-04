@@ -12,21 +12,21 @@ categories:
         phone: +48 570 075 993
 
     Work experience:
-        "[Inviqa](http://www.inviqa.com/)":
-            - 2012--now; *Software engineer (Sheffield, United Kingdom)*
+        2012--now:
+            - Software engineer; *[Inviqa](http://www.inviqa.com/) (Sheffield, United Kingdom; since 2014 remote)*
             - Co-implemented a REST API to facilitate and process donations for a large non-profit organization, created an extensive integration test suite using Behat, set up AWS autoscaling, Varnish cache, performed load testing with Gatling2.
             - Prototyped an ElasticSearch-based hyperlocal news application with an AngularJS frontend.
             - Used Vagrant with Chef to maintain virtual environments, Capistrano for deployment, Jenkins and Scrutinizer for CI.
             - Moved a large MySQL database to a different data centre with zero downtime.
 
-        "[Perfect World](http://www.perfectworld.com/)":
-            - 2010--2012; *PHP developer (Amsterdam, the Netherlands)*
+        2010--2012:
+            - PHP developer; *[Perfect World](http://www.perfectworld.com/) (Amsterdam, the Netherlands)*
             - Designed and created an in-house i18n system (utilising the Kohana framework) to cater to the specific needs of the company.
             - Created reporting tools for the marketing and finance departments to make efficient business decisions.
             - Prepared and conducted technical interviews of developer candidates.
 
-        "[A-WebSys](http://www.awebsys.cz/)":
-            - 2007--2009; *Software developer (Brno, Czech Republic)*
+        2007--2009:
+            - Software developer; *[A-WebSys](http://www.awebsys.cz/) (Brno, Czech Republic)*
             - Developed and maintained a wide variety of small to medium sized web applications in small teams, mostly using some combination of the Zend Framework, PHP, MySQL, MySQL Workbench, XHTML, CSS, and JavaScript. Built a simple points-based eshop in an afternoon.
 
     Personal projects:
