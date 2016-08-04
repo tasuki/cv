@@ -9,7 +9,7 @@ An entanglement of data and code which really should be separated but who has th
 
 On Debian, try this:
 
-	sudo apt-get install texlive texlive-lang-czechoslovak php5 apache2
+	sudo apt-get install texlive texlive-lang-czechoslovak texlive-latex-extra php5 apache2
 
 ### Usage
 

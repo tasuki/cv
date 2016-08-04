@@ -16,9 +16,8 @@ function format($string, $pdf_info = false) {
 	$replace = array(
 		'/&/' => '\\&', // escape ampersand
 		'/_/' => '\\_', // escape underscore
-		'/\[(.*)\]\((.*)\)/U' => '\\href{\\1}{\\2}', // link links
-		'/(href{.*}){(?!([[:alpha:]]*:))(.*)}/U' => '\\1{http://cv.tasuki.org/\\3}',
-		'/\\*(.*)\\*/' => '\\1', // remove italics as we use that for links
+		'/\[(.*)\]\((.*)\)/U' => '\\href{\\2}{\\1}', // link links
+		'/\\*(.*)\\*/' => '\textit{\\1}', // transform italics
 	);
 
 	return preg_replace(array_keys($replace), array_values($replace), $string);
@@ -30,7 +29,7 @@ function format($string, $pdf_info = false) {
  * @param  string  category name
  */
 function show_category($category) {
-	echo "\n\category{" . format($category) . "}";
+	echo "\n\\section{" . format($category) . "}";
 }
 
 /**
@@ -40,28 +39,24 @@ function show_category($category) {
  * @param  string  right side
  */
 function show_item($item, $desc) {
-	echo "\n\item{" . format($item) . "}{" . format($desc) . "}";
+	echo "\n\\cvitem{" . format($item) . "}{" . format($desc) . "}";
 }
 
 /**
  * Avoid breaking page inside a category
  */
 function start_category() {
-	echo "\n\n\\vbox{";
+	echo "\n\\begin{samepage}";
 }
 function end_category() {
-	echo "\n}";
+	echo "\n\\end{samepage}";
 }
+
 ?>
 
-% A4 size paper
-\pdfpagewidth=210 true mm
-\pdfpageheight=297 true mm
-
-\parindent 0pt
-\nopagenumbers
-\frenchspacing
-\pdflinkmargin 0pt
+\documentclass[11pt,a4paper,serif]{moderncv}
+\usepackage{mathpazo}
+\renewcommand{\sfdefault}{\rmdefault}
 
 \pdfinfo{
 	/Title (<?php echo format($data['title'], true); ?>)
@@ -73,59 +68,25 @@ function end_category() {
 	/PdfStartView /FitW
 }
 
-\def\href#1#2{\leavevmode\pdfstartlink user{
-		/Subtype /Link
-		/C [ .9 .9 1]
-		/A <<
-			/Type /Action
-			/S /URI
-			/URI (#2)
-		>>
-	}\it#1\pdfendlink\rm
-}
+% moderncv themes
+\moderncvstyle{casual}
+\moderncvcolor{black}
+\nopagenumbers{}
 
-\def\category#1{
-	\vskip 20pt
-	\hskip\leftcol\bf #1 \rm
-}
+% character encoding
+\usepackage[utf8]{inputenc}
 
-\def\item#1#2{
-	\vskip .1cm
-	\hbox to \hsize {
-		\vtop {
-			\hsize 4cm \hfill #1
-			\hskip .1cm \guill ~
-		}
-		\vtop { \hsize 11cm #2 }
-		\hfill
-	}
-}
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+\setlength{\hintscolumnwidth}{3.5cm}
 
-\def\palatino{
-	\font\tenrm=pplr8z at 10pt
-	\font\tenbf=pplb8z at 10pt
-	\font\tenit=pplri8z at 10pt
-	\font\title=pplr8z scaled \magstep 3
-	\font\link=pplr8z at 7pt
-	\def\guill{\char 159}
-	\def\leftcol{4.17cm}
-}
-\def\torun{
-	\font\tenrm=qx-anttr at 10pt
-	\font\tenbf=qx-anttb at 10pt
-	\font\tenit=qx-anttr at 10pt
-	\font\title=qx-anttr scaled \magstep 3
-	\def\guill{\char 175}
-	\def\leftcol{4.22cm}
-}
-\palatino
+% personal data
+\name{}{V\kern-.06emít Brunner}
+\title{\textit{\href{https://cv.tasuki.org}{https://cv.tasuki.org}}}
 
-\title \hskip\leftcol V\kern-.05em\char 237\kern-.02em t B\kern-.03em runn\kern-0.02em e\kern-0.02em r
-\hskip.5em\href{\link http:\kern-.1em/\kern-.25em/\kern-.1em cv.tasuki.org}{http://cv.tasuki.org/}
-\vskip 10pt
-
-\tenrm
+\begin{document}
+\makecvtitle
 
 <?php show_data($data); ?>
 
-\bye
+\end{document}
