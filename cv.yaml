@@ -1,6 +1,6 @@
 title: Vít Brunner -- curriculum vitae
 author: Vít Brunner
-url: https://cv.tasuki.org
+baseurl: https://cv.tasuki.org
 description: Vít is a web-oriented software developer.
 keywords: python, php, symfony, mysql, javascript, angularjs, git, linux, bash, vim
 

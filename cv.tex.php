@@ -72,7 +72,7 @@ function end_category() {
 
 % personal data
 \name{}{<?php echo format($data['author']) ?>}
-\title{\textit{\href{<?php echo $data['url'] ?>}{<?php echo format($data['url']) ?>}}}
+\title{\textit{\href{<?php echo $data['baseurl'] ?>}{<?php echo format($data['baseurl']) ?>}}}
 
 \begin{document}
 \makecvtitle
