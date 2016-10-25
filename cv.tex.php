@@ -40,7 +40,7 @@ function show_category($category) {
  * @param  string  right side
  */
 function show_item($item, $desc) {
-	echo "\n\\cvitem{" . format($item) . "}{" . format($desc) . "}";
+	echo "\n\\cvitem{" . format($item) . "\\hskip.05cm}{\\hskip-.23cm\$\\cdot\$ " . format($desc) . "}";
 }
 
 /**
