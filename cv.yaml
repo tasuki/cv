@@ -2,7 +2,7 @@ title: Vít Brunner -- curriculum vitae
 author: Vít Brunner
 baseurl: https://cv.tasuki.org
 description: Vít is a web-oriented software developer.
-keywords: python, php, symfony, mysql, javascript, angularjs, git, linux, bash, vim
+keywords: scala, sbt, akka, python, symfony, mysql, angularjs, git, linux, bash, vim
 
 categories:
     - Communication is the key. I highly value consistency and both conceptual and visual simplicity. My tools of choice are Linux, Bash, and Vim. I like normalised databases and plenty of integration tests. Slightly obsessed about Git branching and commit messages.
@@ -15,25 +15,28 @@ categories:
     Work experience:
         2012--now:
             - Software engineer; *[Inviqa](http://www.inviqa.com/) (Sheffield, United Kingdom; since 2014 remote)*
+            - Helped create a Docker-based continuous delivery pipeline. Used Scala with Akka HTTP to build a service to check the health of Kubernetes clusters.
             - Co-implemented a REST API to facilitate and process donations for a large non-profit organization, created an extensive integration test suite using Behat, set up AWS autoscaling, Varnish cache, performed load testing with Gatling2.
-            - Prototyped an ElasticSearch-based hyperlocal news application with an AngularJS frontend.
-            - Used Vagrant with Chef to maintain virtual environments, Capistrano for deployment, Jenkins and Scrutinizer for CI.
+            - Maintained a Symfony-based internal tool to help plan training and conference attendance of Inviqa employees.
+            - Prototyped a hyperlocal news application powered by ElasticSearch with an AngularJS frontend.
+            - Used Vagrant with Chef to maintain virtual environments, Capistrano for deployment, Jenkins and Scrutinizer for CI. Switching to Docker with Docker Compose since 2015.
             - Moved a large MySQL database to a different data centre with zero downtime.
 
         2010--2012:
             - PHP developer; *[Perfect World](http://www.perfectworld.com/) (Amsterdam, the Netherlands)*
-            - Designed and created an in-house i18n system (utilising the Kohana framework) to cater to the specific needs of the company.
+            - Designed and created an in-house i18n system utilising the Kohana framework to cater to the specific needs of the company.
             - Created reporting tools for the marketing and finance departments to make efficient business decisions.
             - Prepared and conducted technical interviews of developer candidates.
 
         2007--2009:
             - Software developer; *[A-WebSys](http://www.awebsys.cz/) (Brno, Czech Republic)*
-            - Developed and maintained a wide variety of small to medium sized web applications in small teams, mostly using some combination of the Zend Framework, PHP, MySQL, MySQL Workbench, XHTML, CSS, and JavaScript. Built a simple points-based eshop in an afternoon.
+            - Developed and maintained a wide variety of small to medium sized web applications in small teams. Zend Framework, MySQL, Workbench, XHTML, CSS, JavaScript.
+            - Built a simple points-based eshop in an afternoon.
 
     Personal projects:
         "[Minotaur](https://github.com/tasuk/minotaur)":
             - 2016; *Scala*
-            - An [MCTS](https://en.wikipedia.org/wiki/Monte_Carlo_tree_search)-based AI to play [Quoridor](https://en.wikipedia.org/wiki/Quoridor).
+            - An [MCTS](https://en.wikipedia.org/wiki/Monte_Carlo_tree_search)-based AI to play [Quoridor](https://en.wikipedia.org/wiki/Quoridor). I can beat it.
         "[Side By Side](https://github.com/tasuk/side-by-side)":
             - 2014; *AngularJS, CoffeeScript*
             - Easy visual comparison tool for different translations or versions of itemized texts; e.g. poems, bibles, etc. See it in action for [Enchiridion](https://enchiridion.tasuki.org/) and [Tao Te Ching](https://ttc.tasuki.org/).
