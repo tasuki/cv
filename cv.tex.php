@@ -50,11 +50,11 @@ function start_category() {
 	echo "\n\\begin{samepage}";
 }
 function end_category() {
-	echo "\n\\end{samepage}";
+	echo "\n\\end{samepage}\n";
 }
 ?>
 
-\documentclass[11pt,a4paper,serif]{moderncv}
+\documentclass[10pt,a4paper,serif]{moderncv}
 \usepackage{mathpazo}
 \renewcommand{\sfdefault}{\rmdefault}
 
