@@ -47,10 +47,10 @@ function show_item($item, $desc) {
  * Avoid breaking page inside a category
  */
 function start_category() {
-	echo "\n\\begin{samepage}";
+	echo "\n\\vbox{";
 }
 function end_category() {
-	echo "\n\\end{samepage}\n";
+	echo "\n}\n";
 }
 ?>
 
