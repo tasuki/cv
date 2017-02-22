@@ -13,7 +13,12 @@ categories:
         phone: +48 570 075 993
 
     Work experience:
-        2012--now:
+        2016--now:
+            - Scala developer; *[KwiqJobs](http://www.kwiqjobs.com/) (Bielefeld, Germany; working remotely)*
+            - Building the Play Framework powered backend behind the KwiqJobs mobile app.
+            - Trying to apply Scala best practices and pushing the codebase in the functional direction.
+
+        2012--2016:
             - Software engineer; *[Inviqa](http://www.inviqa.com/) (Sheffield, United Kingdom; since 2014 remote)*
             - Helped create a Docker-based continuous delivery pipeline. Used Scala with Akka HTTP to build a service to check the health of Kubernetes clusters.
             - Co-implemented a REST API to facilitate and process donations for a large non-profit organization, created an extensive integration test suite using Behat, set up AWS autoscaling, Varnish cache, performed load testing with Gatling2.
