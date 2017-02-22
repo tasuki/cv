@@ -6,7 +6,6 @@ keywords: scala, sbt, akka, python, symfony, mysql, angularjs, git, linux, bash,
 
 categories:
     - Communication is the key. I highly value consistency and both conceptual and visual simplicity. My tools of choice are Linux, tmux, Bash, and Vim. I like normalised databases and plenty of integration tests. Slightly obsessed about Git branching and commit messages.
-    - Both the [HTML version](https://cv.tasuki.org) and the [PDF version](https://cv.tasuki.org/cv-vit-brunner.pdf) of my CV are generated from a [YAML source](https://cv.tasuki.org/cv.yaml). I think that's cool. If you think so too, I would like to work with you!
 
     Contact:
         e-mail: "[vit.brunner@gmail.com](mailto:vit.brunner@gmail.com)"
@@ -28,7 +27,9 @@ categories:
 
         2010--2012:
             - PHP developer; *[Perfect World](http://www.perfectworld.com/) (Amsterdam, the Netherlands)*
-            - Designed and created an in-house i18n system utilising the Kohana framework to cater to the specific needs of the company. Created reporting tools for the marketing and finance departments to make efficient business decisions. Prepared and conducted technical interviews of developer candidates.
+            - Designed and created an in-house i18n system utilising the Kohana framework to cater to the specific needs of the company.
+            - Created reporting tools for the marketing and finance departments to make efficient business decisions.
+            - Prepared and conducted technical interviews of developer candidates.
 
         2007--2009:
             - Software developer; *[A-WebSys](http://www.awebsys.cz/) (Brno, Czech Republic)*
@@ -65,3 +66,4 @@ categories:
         - Achieved advanced proficiency in certain [abstract board games](http://www.littlegolem.net/jsp/info/player.jsp?plid=5460), particularly TwixT, Hex, and Amazons.
         - Cycled across Europe, following the [Eurovelo 6](http://www.eurovelo6.org/) for two months from the Atlantic to the Black Sea.
         - Successfully completed several online courses; one of the first MOOCs -- [the AI-Class](certificates/2011-ai.pdf), [How Things Work](certificates/2013-how-things-work.pdf), [A Beginner's Guide to Irrational Behavior](certificates/2013-irrational.pdf), [A Brief History of Humankind](certificates/2014-humankind.pdf), and [Machine Learning](https://www.coursera.org/learn/machine-learning). Started and haven't finished many more.
+        - Both the [HTML version](https://cv.tasuki.org) and the [PDF version](https://cv.tasuki.org/cv-vit-brunner.pdf) of my CV are generated from a [YAML source](https://cv.tasuki.org/cv.yaml). I think that's cool. If you think so too, I'd like to work with you!
