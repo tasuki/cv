@@ -5,7 +5,7 @@ description: Vít is a web-oriented software developer.
 keywords: scala, sbt, akka, python, symfony, mysql, angularjs, git, linux, bash, vim
 
 categories:
-    - Communication is the key. I highly value consistency and both conceptual and visual simplicity. My tools of choice are Linux, Bash, and Vim. I like normalised databases and plenty of integration tests. Slightly obsessed about Git branching and commit messages.
+    - Communication is the key. I highly value consistency and both conceptual and visual simplicity. My tools of choice are Linux, tmux, Bash, and Vim. I like normalised databases and plenty of integration tests. Slightly obsessed about Git branching and commit messages.
     - Both the [HTML version](https://cv.tasuki.org) and the [PDF version](https://cv.tasuki.org/cv-vit-brunner.pdf) of my CV are generated from a [YAML source](https://cv.tasuki.org/cv.yaml). I think that's cool. If you think so too, I would like to work with you!
 
     Contact:
