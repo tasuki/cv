@@ -19,6 +19,7 @@ function format($string, $pdf_info = false) {
 		'/\[(.*)\]\((.*)\)/U' => '\\href{\\2}{\\1}', // link links
 		'/\\*(.*)\\*/' => '\textit{\\1}', // transform italics
 		'/Ví/' => 'V\kern-.06emí', // manually fix kerning == ugly!
+		'/TeX/' => '\\TeX', // make TeX render nicely
 	);
 
 	return preg_replace(array_keys($replace), array_values($replace), $string);
