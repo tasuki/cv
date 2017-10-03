@@ -39,13 +39,13 @@ categories:
             - Built a simple points-based eshop in an afternoon.
 
     Personal projects:
-        "[Minotaur](https://github.com/tasuk/minotaur)":
+        "[Minotaur](https://github.com/tasuki/minotaur)":
             - 2016; *Scala*
             - An [MCTS](https://en.wikipedia.org/wiki/Monte_Carlo_tree_search)-based AI to play [Quoridor](https://en.wikipedia.org/wiki/Quoridor). I can beat it.
-        "[Side By Side](https://github.com/tasuk/side-by-side)":
+        "[Side By Side](https://github.com/tasuki/side-by-side)":
             - 2014; *AngularJS, CoffeeScript*
             - Easy visual comparison tool for different translations or versions of itemized texts; e.g. poems, bibles, etc. See it in action for [Enchiridion](https://enchiridion.tasuki.org/) and [Tao Te Ching](https://ttc.tasuki.org/).
-        "[Zlej Rob](https://github.com/tasuk/zlej-rob)":
+        "[Zlej Rob](https://github.com/tasuki/zlej-rob)":
             - 2013; *Python*
             - A semi-intelligent AI solver for [RoboZZle](http://www.robozzle.com). Solved 2,000+ puzzles. Currently in top 50 of the 50,000+ players. This was lots of fun.
         "[Masonry Ordered](https://masonry-ordered.tasuki.org/)":
@@ -54,7 +54,7 @@ categories:
         "[LittleGolem ratings](https://golem.tasuki.org/)":
             - 2008; *an awful MySQL database hiding behind one large PHP file*
             - Summary ratings for LittleGolem game server. Features automatic updates powered by the Googlebot. Will not show the code.
-        "[Simple Gallery](http://github.com/tasuk/gallery)":
+        "[Simple Gallery](http://github.com/tasuki/gallery)":
             - 2007; *PHP, Kohana framework*
             - Filesystem based gallery to [show off my photos](https://gallery.tasuki.org/). Pretty simple, really.
         "[Tsumego Collections](https://tsumego.tasuki.org)":
