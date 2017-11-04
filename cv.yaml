@@ -12,22 +12,23 @@ categories:
     Work experience:
         2016--now:
             - Scala developer; *[Swarms Technologies](http://swarms.tech/) (Bielefeld, Germany; working remotely)*
-            - Building the Play-powered backend for the Swarms' mobile app.
-            - Introduced integration tests for the major user journeys.
+            - Architecting and building the RESTful API backing the Swarms' mobile app for workers and admin interface for job providers.
+            - Introduced integration tests for the major user journeys. This has significantly reduced the number of regressions.
+            - Migrated the application to Docker, leading to a unified and predictable development environment and a speed up in continuous integration.
             - Striving for type safety and pushing side effects outwards.
 
         2012--2016:
             - Software engineer; *[Inviqa](http://www.inviqa.com/) (Sheffield, United Kingdom; since 2014 remote)*
-            - Helped create a Docker-based continuous delivery pipeline. Used Scala with Akka HTTP to build a service to check the health of Kubernetes clusters.
+            - Helped create a Docker-based continuous delivery pipeline.
+            - Used Scala with Akka HTTP to build a service to check the health of Kubernetes clusters.
             - Co-implemented a REST API to facilitate and process donations for a large non-profit organization, created an extensive integration test suite using Behat, set up AWS autoscaling, Varnish cache, performed load testing with Gatling2.
-            - Maintained a Symfony-based internal tool to help plan training and conference attendance of Inviqa employees.
+            - Maintained a Symfony-based tool to help plan training and conference attendance of Inviqa employees.
             - Prototyped a hyperlocal news application powered by ElasticSearch with an AngularJS frontend.
-            - Used Vagrant with Chef to maintain virtual environments, Capistrano for deployment, Jenkins and Scrutinizer for CI. Switching to Docker with Docker Compose since 2015.
             - Moved a large MySQL database to a different data centre with zero downtime.
 
         2010--2012:
-            - PHP developer; *[Perfect World](http://www.perfectworld.com/) (Amsterdam, the Netherlands)*
-            - Designed and created an in-house i18n system utilising the Kohana framework to cater to the specific needs of the company.
+            - PHP developer; *[Perfect World](http://www.perfectworld.com/) (Amsterdam, Netherlands)*
+            - Designed and created an in-house i18n system to cater to the specific needs of the company.
             - Created reporting tools for the marketing and finance departments to make efficient business decisions.
             - Prepared and conducted technical interviews of developer candidates.
 
