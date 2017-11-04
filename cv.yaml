@@ -5,8 +5,6 @@ description: Vít is a software developer.
 keywords: scala, akka, git, linux, docker, python
 
 categories:
-    - Communication is the key. Understanding the domain is a prerequisite for good architecture. I highly value consistency and both conceptual and visual simplicity. My tools of choice are Linux, tmux, zsh, and vim. I like normalised databases and plenty of integration tests. Slightly obsessed about git branching and commit messages.
-
     Contact:
         e-mail: "[vit.brunner@gmail.com](mailto:vit.brunner@gmail.com)"
         phone: +48 570 075 993
