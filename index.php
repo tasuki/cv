@@ -86,6 +86,21 @@ function show_item($item, $desc) {
 
 		a:link, a:visited { color: #B32C05; }
 		a:hover { text-decoration: none; }
+
+		a:link {
+			text-decoration: none;
+			background: -webkit-linear-gradient(#F2E9C6, #F2E9C6), -webkit-linear-gradient(#F2E9C6, #F2E9C6), -webkit-linear-gradient(#B32C05, #B32C05);
+			background: linear-gradient(#F2E9C6, #F2E9C6), linear-gradient(#F2E9C6, #F2E9C6), linear-gradient(#B32C05, #B32C05);
+			-webkit-background-size: 0.05em 1px, 0.05em 1px, 1px 1px;
+			-moz-background-size: 0.05em 1px, 0.05em 1px, 1px 1px;
+			background-size: 0.05em 1px, 0.05em 1px, 1px 1px;
+			background-repeat: no-repeat, no-repeat, repeat-x;
+			text-shadow: 0.03em 0 #F2E9C6, -0.03em 0 #F2E9C6, 0 0.03em #F2E9C6, 0 -0.03em #F2E9C6, 0.06em 0 #F2E9C6, -0.06em 0 #F2E9C6, 0.09em 0 #F2E9C6, -0.09em 0 #F2E9C6, 0.12em 0 #F2E9C6, -0.12em 0 #F2E9C6, 0.15em 0 #F2E9C6, -0.15em 0 #F2E9C6;
+			background-position: 0% 88%, 100% 88%, 0% 88%;
+		}
+		a:hover {
+			background: none;
+		}
 	</style>
 	<?php include 'lib/analyticstracking.php'; ?>
 </head>
