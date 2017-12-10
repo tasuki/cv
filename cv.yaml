@@ -11,7 +11,7 @@ categories:
 
     Work experience:
         2016--2017:
-            - Scala developer; *[Swarms Technologies](http://swarms.tech/) (Bielefeld, Germany; working remotely)*
+            - Scala developer; *[Swarms Technologies](http://swarms.com/) (Bielefeld, Germany; working remotely)*
             - Participated in architecting and building the RESTful API backing the Swarms' mobile app for workers and the admin interface for job providers. Built using the Play Framework with Slick, Akka, and Cats, backed by PostgreSQL.
             - Created a simple [Python SDK](https://github.com/swarms/python-sdk) for the API.
             - Introduced integration tests for the major user journeys, which has significantly reduced the number of regressions.
